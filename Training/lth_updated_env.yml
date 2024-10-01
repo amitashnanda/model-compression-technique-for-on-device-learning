@@ -1,0 +1,16 @@
+name: lth_updated_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.18  # Specifying the exact Python version
+  - conda:    
+    - tensorflow==2.12.0
+    - scikit-learn==1.5.2
+    - numpy==1.23.5
+    - matplotlib==3.9.2
+    - Pillow==10.4.0
+    - tqdm==4.66.5
+  - pip: 
+    - torch
+    - torchvision
